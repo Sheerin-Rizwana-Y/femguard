@@ -98,17 +98,4 @@ python -m ruff check .
 - `docs/API.md`, `docs/MODEL_PLAN.md`, `docs/VALIDATION.md`: interfaces, future model work and actual validation.
 - `.github/workflows/ci.yml`: tests and lint on push/pull request.
 
-## GitHub upload
-
-Create an empty repository called `her-techarmor`, then run:
-
-```bash
-git init
-git add .
-git commit -m "Initial Her TechArmor operations MVP"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/her-techarmor.git
-git push -u origin main
-```
-
-Replace YOUR_USERNAME and review staged files. Do not publish secrets or personal footage. This package has not been pushed to your account. Project-authored code uses MIT; original presentations and third-party datasets/models are not covered by that license.
+ by that license.
